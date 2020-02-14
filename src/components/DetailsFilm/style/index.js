@@ -44,7 +44,7 @@ const DetailsStyle = styled.section`
 					font-family: 'Bree Serif',serif;
 					letter-spacing: 0.3rem;
 					text-transform: uppercase;
-					white-space: nowrap;
+					white-space: normal;
 					overflow: hidden!important;
 					text-overflow: ellipsis;
 					display: block;
