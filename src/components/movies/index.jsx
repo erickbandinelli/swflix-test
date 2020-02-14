@@ -46,6 +46,7 @@ class ListMovies extends React.Component {
       <MoviesStyle>
 				<Container>
   				<Row>
+						<div className="bg"></div>
 						<ul>
 							{
 								newListMovies.sort((a, b) => a.episode_id < b.episode_id).map((item, key) => {

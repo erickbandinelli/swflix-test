@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import bg from '../../../images/bg2.jpg';
 import cp1 from '../../../images/swep1.png';
 import cp2 from '../../../images/swep2.png';
 import cp3 from '../../../images/swep3.png';
@@ -9,11 +10,34 @@ import cp6 from '../../../images/swep6.png';
 import cp7 from '../../../images/swep7.jpg';
 
 const MoviesStyle = styled.div`
+		.bg {
+			background-size: cover;
+			background-image: url(${bg});
+			background-position: center center;
+			background-attachment: fixed;
+			width: 100%;
+			height: 135%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: -1;
+
+			&:after {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background: #07060a;
+				background: linear-gradient(0deg, rgba(11, 11, 14, .95) 0, rgba(11, 11, 14, .95) 22%, rgba(7, 6, 10, .75) 58%, rgba(7, 6, 10, .65) 100%);
+			}
+		}
+
 		ul {
 			width: 100%;
 			display: flex;
 			flex-wrap: wrap;
-			margin: 128px 0 128px 0;
+			margin: 53px 0 128px 0;
 			
 			div{
 				&:nth-child(1) {

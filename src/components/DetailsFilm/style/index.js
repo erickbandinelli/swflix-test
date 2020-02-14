@@ -11,7 +11,7 @@ const DetailsStyle = styled.section`
 			background-position: center center;
 			background-attachment: fixed;
 			width: 100%;
-			height: 100%;
+			height: 135%;
 			position: absolute;
 			left: 0;
 			top: 0;
