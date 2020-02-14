@@ -22,6 +22,10 @@ const MoviesStyle = styled.div`
 			top: 0;
 			z-index: -1;
 
+			@media screen and (max-width: 700px) {
+				height: 346%;
+			}
+
 			&:after {
 				content: '';
 				position: absolute;
@@ -38,6 +42,10 @@ const MoviesStyle = styled.div`
 			display: flex;
 			flex-wrap: wrap;
 			margin: 53px 0 128px 0;
+
+			@media screen and (max-width: 700px) {
+				padding: 0;
+			}
 			
 			div{
 				&:nth-child(1) {
@@ -116,6 +124,11 @@ const MoviesStyle = styled.div`
 							font-size: 0.8rem;
 							letter-spacing: 0.1rem;
 							text-align: center;
+
+							@media screen and (max-width: 700px) {
+								font-size: 1rem;
+								margin-top: 5px; 
+							}
 						}
 					}
 				}

@@ -39,7 +39,7 @@ const DetailsStyle = styled.section`
 					font-weight: 600;
 					margin-top: 44px;
 					margin-bottom: 25px;
-					width: 700px;
+					width: 100%;
 					color: #fff;
 					font-family: 'Bree Serif',serif;
 					letter-spacing: 0.3rem;
@@ -48,6 +48,11 @@ const DetailsStyle = styled.section`
 					overflow: hidden!important;
 					text-overflow: ellipsis;
 					display: block;
+
+					@media screen and (max-width: 700px) {
+						font-size: 2rem;
+						white-space: normal;
+					}
 				}
 
 				p{
@@ -91,7 +96,6 @@ const DetailsStyle = styled.section`
 			}
 			.buttonplay {
 				right: 200px;
-				top: 350px;
 				width: 150px;
 				height: 150px;
 				border-radius: 50%;
@@ -107,6 +111,18 @@ const DetailsStyle = styled.section`
 				position: absolute;
 				top: 50%;
     		transform: translateY(-50%);
+
+				@media screen and (max-width: 700px) {
+					font-size: 2rem;
+					padding: 0 0 0 5px;
+					position: fixed;
+					border-radius: 0;
+					border-bottom-left-radius: 10px;
+    			border-top-left-radius: 10px;
+					right: 0;
+					width: 60px;
+    			height: 60px;
+				}
 
 				&:hover {
 					background: #970f19;
