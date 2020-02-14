@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Run the command above to install all dependencies.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -14,7 +18,7 @@ You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Não realizei testes pois nunca trabalhei com testes unitários<br />
+I didn't perform tests because I never worked with unit tests<br />
 
 ### `yarn build`
 
